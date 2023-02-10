@@ -22,13 +22,15 @@ html{
 }
 .iphone {
   background-color:var(--couleur-primaire);
-  color: #ffec3f;
+  color:var(--couleur-jaune);
   height: 100%;
   width: 100%;
 }
 .iphone_image {
-  width: 100%;
-  height: 100%;
+  margin: 20px;
+  
+  width: 380px;
+
 }
 #telecharger {
   display: flex;
@@ -40,19 +42,22 @@ html{
 }
 h1 {
   position: relative;
-  top: -110px;
-  right: -190px;
+  top: 0px;
+  right: 275px;
   font-size: 60px;
 }
 h2 {
   position: relative;
-  top: -200px;
-  right: -90px;
+  top: -150px;
+  right: -250px;
 }
 .btn {
+  width: 400px;
   position: relative;
-  top: -385px;
-  right: 400px;
+  top: -250px;
+  right: -158px;
   color: #ffec3f;
   border-color: #ffec3f;
+  border-width: 5px;
+  font-size: 30px;
 }
