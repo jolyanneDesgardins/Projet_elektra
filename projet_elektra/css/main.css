@@ -1,18 +1,34 @@
+
+:root {
+  --couleur-primaire: #2a1358;
+  --couleur-jaune: #FFEC3F;
+  --arriere-plan: #EAF2FF;
+}
+
+
+
+
+
+
+html{
+  background-color:var(--arriere-plan);
+}
+
 .row {
-  background-color: #2a1358;
-  color: #ffec3f;
+  background-color:var(--couleur-primaire);
+  color:var(--couleur-jaune);
   width: 100%;
   height: 100%;
 }
 .iphone {
-  background-color: #2a1358;
+  background-color:var(--couleur-primaire);
   color: #ffec3f;
   height: 100%;
   width: 100%;
 }
 .iphone_image {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 }
 #telecharger {
   display: flex;
