@@ -13,7 +13,7 @@ html {
 }
 .row {
   color: var(--couleur-jaune);
-  width: 100%;
+
   height: 100%;
 }
 .iphone {
@@ -26,10 +26,7 @@ html {
   margin: 20px;
   width: 300px;
 }
-iframe {
-  margin: 20px;
-  width: 300px;
-}
+
 #telecharger {
   display: flex;
   align-items: flex-end;
@@ -57,9 +54,7 @@ h2 {
   color: #ffec3f;
   border-color: #ffec3f;
 }
-.card {
-  margin: 20px;
-}
+
 .card-title {
   color: #2a1358;
 }
@@ -72,10 +67,20 @@ p {
   height: 100px;
   border-radius: 50%;
   background-color: #ffec3f;
-  display: flex;
-  align-content: center;
-  justify-content: center;
 }
 .card-img {
-  width: 100%;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 38px;
+  left: 27px;
+}
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin-left: 70px;
+  margin-top: 20px;
 }
