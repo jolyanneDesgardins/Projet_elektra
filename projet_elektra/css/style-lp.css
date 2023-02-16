@@ -1,6 +1,6 @@
 :root {
   --couleur-primaire: #2a1358;
-  --couleur-jaune: #ffec3f;
+  --couleur-accent: #ffec3f;
   --arriere-plan: #eaf2ff;
 }
 
@@ -12,7 +12,7 @@ html {
   background-color: var(--couleur-primaire);
 }
 .row {
-  color: var(--couleur-jaune);
+  color: var(--couleur-accent);
 
   height: 100%;
 }
