@@ -1,0 +1,43 @@
+:root {
+    --couleur-primaire: #2a1358;
+    --couleur-jaune: #FFEC3F;
+    --arriere-plan: #EAF2FF;
+    --mauve-fonce: #3C236D;
+  }
+
+.navbar {
+    background-color: var(--mauve-fonce);
+}
+
+.offcanvas-header {
+    background-color: var(--mauve-fonce);
+}
+
+.logo {
+    width: 50px;
+}
+
+.pfp {
+    width: 50px;
+    border-radius: 50%;
+}
+
+main {
+    height: 100vh;
+}
+
+footer {
+    background-color: var(--couleur-primaire);
+    padding: 2rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.col-sm-6 {
+    align-self: center;
+    text-align: left;
+}
+
+.logo-tim {
+    width: 300px;
+}
