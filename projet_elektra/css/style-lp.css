@@ -25,6 +25,8 @@ html {
 .iphone_image {
   margin: 20px;
   width: 300px;
+  
+ 
 }
 
 #telecharger {
@@ -100,4 +102,10 @@ footer {
 }
 .logo-entreprise {
   width: 250px;
+}
+iframe{
+  aspect-ratio: 5/9;
+  width: 25%; position: relative;
+  top: 25px;
+
 }
