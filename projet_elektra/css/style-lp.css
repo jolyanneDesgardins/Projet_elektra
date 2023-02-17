@@ -54,6 +54,11 @@ h2 {
   color: #ffec3f;
   border-color: #ffec3f;
 }
+.btn:hover {
+  color: var(--couleur-primaire);
+  background-color: var(--couleur-accent);
+  border-color: #ffec3f;
+}
 
 .card-title {
   color: #2a1358;
@@ -69,11 +74,10 @@ p {
   background-color: #ffec3f;
 }
 .card-img {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  top: 38px;
-  left: 27px;
+  width: 70%;
+  position: relative;
+  top: 15px;
+  left: 15px;
 }
 .col-md-4 {
   display: flex;
@@ -100,8 +104,38 @@ footer {
 }
 .logo-entreprise {
   width: 250px;
+  position: relative;
+  left: 20px;
 }
+/*iframe {
+  aspect-ratio: 5/9;
+  width: 45%;
+  margin: 80px;
+  position: relative;
+  left: -65px;
+}*/
 iframe {
   aspect-ratio: 5/9;
-  width: 35%;
+  width: 300px;
+  margin: 80px;
+  position: relative;
+  left: -65px;
+}
+.image {
+  position: absolute;
+  z-index: 2;
+  width: 23%;
+}
+.navbar {
+  background-color: #2a1358;
+  color: #ffec3f;
+}
+.lien {
+  color: #ffec3f;
+}
+.nav-link {
+  color: #ffec3f;
+  position: relative;
+  left: 650px;
+  margin-left: 60px;
 }
