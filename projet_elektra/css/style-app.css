@@ -1,18 +1,82 @@
 /*-- Styles Généraux --*/
 *{
     font-family: var(--fonte-main);
+    list-style-type: none;
+}
+
+p {
+    text-align: center;
+}
+
+.breaks {
+    background-color: var(--mauve-fonce);
 }
  /*-- NavBar --*/
 .navbar {
     background-color: var(--mauve-fonce);
+    border-radius: 0px 0px 25px 25px;
 }
 
 .offcanvas-header {
     background-color: var(--mauve-fonce);
 }
 
+.offcanvas-body {
+    background-color: var(--couleur-primaire);
+}
+
 .pfp {
     border-radius: 50%;
+}
+
+/*-- Barre de recherche --*/
+#searchbar {
+    background-color: var(--mauve-fonce);
+}
+
+.searchbarcontainer {
+    background-color: var(--mauve-fonce);
+    border-radius: 25px;
+}
+
+.filter {
+    overflow: auto;
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--mauve-fonce);
+    border-radius: 25px;
+    border-width: 3px;
+    color: var(--couleur-accent);
+    border-color: var(--couleur-accent);
+    white-space: nowrap;
+}
+
+.btn:hover {
+    background-color: var(--couleur-accent);
+    color: var(--mauve-fonce);
+    border-color: var(--couleur-accent);
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.form-control {
+    border-radius: 25px;
 }
 
 /*-- Footer --*/
@@ -20,5 +84,6 @@ footer {
     background-color: var(--couleur-primaire);
     color: white;
     text-align: center;
+    border-radius: 25px 25px 0 0;
 }
 

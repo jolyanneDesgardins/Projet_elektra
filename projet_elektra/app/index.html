@@ -12,12 +12,15 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Application</title>
 </head>
 <body>
 <header>
 </header>
 <main>
+  <div class="breaks pt-5 pb-5">
+  </div>
   <!-- NavBar -->
   <nav class="navbar navbar-dark fixed-top">
     <div class="container-fluid">
@@ -51,11 +54,35 @@
           </ul>
         </div>
       </div>
+      <!-- Logo Elektra -->
       <a class="navbar-brand" href="#"><img src="\projet_elektra\assets\logo\logo_elektra.png" width="50px" class="logo">Elektra</a>
       <img src="/projet_elektra/assets/logo/pfp.png" width="50px" height="50px" class="pfp">
     </div>
   </nav>
-  <p>kndlbvndlbndlkbnlkdnbldnbdlknbdlknbd</p>
+ 
+  <!-- Formulaire de recherche -->
+  <div class="container-fluid searchbarcontainer">
+      <div class="row" id="searchbar">
+        <form class="form-inline justify-content-center text-center">
+          <div class="form-group has-search">
+            <span class="bi bi-search form-control-feedback"></span>
+            <input type="text" class="form-control" placeholder="Rechercher une oeuvre, un artiste...">
+          </div>
+        </form>
+    </div>
+    <div class="row mt-4 mb-3 pb-2">
+      <div class="filter">
+        <ul class="flex-row d-flex justify-content-space-around">
+          <li><button type="button" class="btn btn-primary m-1 mt-0 mb-0">Toutes</button></li>
+          <li><button type="button" class="btn btn-primary m-1 mt-0 mb-0">Installations interactives</button></li>
+          <li><button type="button" class="btn btn-primary m-1 mt-0 mb-0">Concert</button></li>
+          <li><button type="button" class="btn btn-primary m-1 mt-0 mb-0">Performances</button></li>
+          <li><button type="button" class="btn btn-primary m-1 mt-0 mb-0">AR/VR</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   <p>kndlbvndlbndlkbnlkdnbldnbdlknbdlknbd</p>
   <p>kndlbvndlbndlkbnlkdnbldnbdlknbdlknbd</p> <p>kndlbvndlbndlkbnlkdnbldnbdlknbdlknbd</p>
   <p>kndlbvndlbndlkbnlkdnbldnbdlknbdlknbd</p> <p>kndlbvndlbndlkbnlkdnbldnbdlknbdlknbd</p>
   <p>kndlbvndlbndlkbnlkdnbldnbdlknbdlknbd</p> <p>kndlbvndlbndlkbnlkdnbldnbdlknbdlknbd</p>
@@ -79,11 +106,9 @@
     </div>
       <!-- Logo TIM -->
     <div class="col 12 text-sm-end col-sm-6">
-      <img src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg" height="150px" width="200px" class="logo-tim">
+      <img src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg" height="100px" width="200px" class="logo-tim">
     </div>
   </div>
-  <p>kndlbvndlbndlkbnlkdnbldnbdlknbdlknbd</p>
-  <p>kndlbvndlbndlkbnlkdnbldnbdlknbdlknbd</p>
 </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
