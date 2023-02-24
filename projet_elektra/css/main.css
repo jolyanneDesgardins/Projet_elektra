@@ -10,26 +10,6 @@ html{
   background-color:var(--arriere-plan);
 }
 
-.iphone {
-  background-color:var(--couleur-primaire);
-  color:var(--couleur-accent);
-  height: 100%;
-  width: 100%;
-}
-.iphone_image {
-  margin: 20px;
-  
-  width: 380px;
-
-}
-#telecharger {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: flex-end;
-}
 h1, .h1 {
   position: relative;
   top: 0px;

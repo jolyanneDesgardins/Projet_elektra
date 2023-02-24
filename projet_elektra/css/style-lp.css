@@ -166,4 +166,21 @@ top: 15px;
 .testimonials{
   position: relative;
   top:5px;
+
+}
+
+
+
+.iphone_image {
+  margin: 20px;
+  width: 380px;
+
+}
+#telecharger {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: flex-end;
 }
