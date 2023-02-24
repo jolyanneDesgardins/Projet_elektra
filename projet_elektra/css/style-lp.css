@@ -14,8 +14,10 @@ html {
 }
 .row {
   color: var(--couleur-accent);
-
+  justify-content: center;
+  align-content: normal;
   height: 100%;
+  
 }
 
 .iphone {
@@ -53,6 +55,7 @@ h2 {
   position: relative;
   top: -100px;
   right: -90px;
+
 }
 .btn {
   position: relative;
@@ -149,6 +152,7 @@ iframe {
   position: relative;
   top: 25px;
   left: 60px;
+  color: var(--couleur-primaire);
 }
 .texte {
   position: relative;
@@ -183,4 +187,13 @@ top: 15px;
   flex-wrap: wrap;
   align-content: stretch;
   justify-content: flex-end;
+}
+
+.testimonials{
+  color:var(--couleur-primaire);
+  
+}
+.mamie{
+  height: 50vh;
+  width: 345px;
 }
