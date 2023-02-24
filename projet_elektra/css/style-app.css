@@ -40,7 +40,6 @@ p {
 }
 
 .filter {
-    overflow: auto;
     text-align: center;
 }
 
@@ -88,4 +87,9 @@ footer {
     border-radius: 25px 25px 0 0;
 }
 
+/*-- En vedette --*/
 
+.card img {
+    height: 20vh;
+    
+}
