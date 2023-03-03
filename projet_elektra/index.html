@@ -26,7 +26,7 @@
       <div class="container">
         <!-- Hamburger button -->
         <button
-          class="navbar-toggler"
+          class="navbar-toggler "
           data-bs-toggle="collapse"
           data-bs-target="#mainNav"
           aria-controls="mainNav"
@@ -38,12 +38,18 @@
 
         <!-- Navigation -->
         <div id="mainNav" class="collapse navbar-collapse" id="scrollspyHeading1">
-          <ul class="navbar-nav" >
-            <li class="nav-item text-align-center">
+          <ul class="navbar-nav " >
+            <li class="nav-item ">
               <a href="#scrollspyHeading1" class="nav-link" >Appli</a>
             </li>
             <li class="nav-item">
               <a href="#scrollspyHeading2" class="nav-link">Fonctionalité</a>
+            </li>
+            <li class="nav-item">
+              <a href="#scrollspyHeading3" class="nav-link">Témoignage</a>
+            </li>
+            <li class="nav-item">
+              <a href="#scrollspyHeading4" class="nav-link">Q&A</a>
             </li>
             <li class="nav-item">
               <a href="#scrollspyHeading2" class="nav-link">En savoir plus</a>
@@ -82,7 +88,7 @@
         <div class="container col-12">
         <h2 class="fonctionalité">Fonctionalité</h2>
         <p class="texte">En téléchargeant notre appli, vous allez profiter d'une foule de fonctionnalités qui vous permettront de vivre une expérience totale et complète lors des expositions et des performances du festival.</p>
-      </div>
+     
     <div class="row " id="scrollspyHeading2" >
       <div class="card mb-3" style="max-width: 400px;">
         <div class="row no-gutters align-items-center">
@@ -198,7 +204,7 @@
   </div>
   </div>
    </div>
-   
+  </div>
 </div>
 <!--témoignage-->
 
@@ -206,23 +212,24 @@
 <div class="section-testimonials d-flex ">
   <div class="row">
     <div class="container">
-    <h2 class="testimonials">Témoignage</h2>
-   
+      <div class="col-12 text-align-center">
+    <h2 class="testimonials text-align-center" id="scrollspyHeading3" >Témoignages</h2>
+  </div>
   
 </div>
 </div>
 </div>
 
 </div>
-<div class="container">
+<div class="container col-12">
   <div class="row ">
 
     <div class="col-12 col-md-6 col-xl-4">
       <div class="card">
-        <img src="assets/personne/fille_chandail_vert.jpg" class="card-img-top">
+        <img src="assets/personne/fille_chandail_vert.jpg" class="card-img-top col-12">
         <div class="card-body">
-          <h3 class="card-title">Titre</h3>
-          Description
+          <h3 class="card-title">Nadia Decotis</h3>
+          Parfais pour planifier des sorties entre amis.On peut même acheter nos billet par l'app, c'est parfait.
         </div>
       </div>
     </div>
@@ -231,8 +238,8 @@
       <div class="card">
         <img src="assets/personne/garcon_chandail_blanc.jpg" class="card-img-top">
         <div class="card-body">
-          <h3 class="card-title">Titre</h3>
-          Description
+          <h3 class="card-title">Marco Frazer</h3>
+          Application géniale, l'interface est belle et facile à comprendre. Je recommende vraiment!
         </div>
       </div>
     </div>
@@ -242,15 +249,15 @@
         <img src="assets/personne/mamie.jpg" class="card-img-top mamie">
         <div class="card-body">
 
-          <h3 class="card-title">Titre</h3>
-          Description
+          <h3 class="card-title">Ginette Lamarche</h3>
+          L'application est génial. C'est plus facile de voir les activités qui sont à faire lorsque je gardes mes petit-enfants.
         </div>
       </div>
     </div>
 
     <div class="col-12 col-md-6 col-xl-4">
       <div class="card">
-        <img src="https://i.smnarnold.com/placeholder/jaune.png" class="card-img-top">
+        <img src="assets/personne/homme_tuque.jpg" class="card-img-top">
         <div class="card-body">
           <h3 class="card-title">Titre</h3>
           Description
@@ -259,7 +266,7 @@
     </div>
     <div class="col-12 col-md-6 col-xl-4">
       <div class="card">
-        <img src="https://i.smnarnold.com/placeholder/jaune.png" class="card-img-top">
+        <img src="assets/personne/fille_assis.jpg" class="card-img-top">
         <div class="card-body">
           <h3 class="card-title">Titre</h3>
           Description
@@ -267,8 +274,8 @@
       </div>
     </div>
     <div class="col-12 col-md-6 col-xl-4">
-      <div class="card">
-        <img src="https://i.smnarnold.com/placeholder/jaune.png" class="card-img-top">
+      <div class="card ">
+        <img src="assets/personne/homme_montaigne.jpg" class="card-img-top">
         <div class="card-body">
           <h3 class="card-title">Titre</h3>
           Description
@@ -276,10 +283,51 @@
       </div>
     </div>
     </div>
-
-
-
+<!--q&a-->
+<div class="col-sm-12 col-lg-6 col-xl-8">
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Élément #1 de l'accordéon
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Ceci est le premier élément du corps de l'accordéon.</strong> Il est affiché par défaut, jusqu'à ce que le plugin d'effondrement ajoute les classes appropriées que nous utilisons pour styliser chaque élément. Ces classes contrôlent l'apparence générale, ainsi que l'affichage et le masquage via des transitions CSS. Vous pouvez modifier tout cela à l'aide de CSS personnalisés ou en remplaçant nos variables par défaut. Il convient également de noter qu'à peu près n'importe quel HTML peut être inséré dans le <code>.accordion-body</code>, bien que la transition limite le débordement.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Élément #2 de l'accordéon
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Ceci est le deuxième élément du corps de l'accordéon.</strong> Il est caché par défaut, jusqu'à ce que le plugin de repli (collapse) ajoute les classes appropriées que nous utilisons pour styliser chaque élément. Ces classes contrôlent l'apparence générale, ainsi que l'affichage et le masquage via des transitions CSS. Vous pouvez modifier tout cela avec un CSS personnalisé ou remplacer nos variables par défaut. Il convient également de noter qu'à peu près n'importe quel HTML peut aller dans le <code>.accordion-body</code>, bien que la transition limite le débordement.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Élément #3 de l'accordéon
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Ceci est le troisième élément du corps de l'accordéon.</strong> Il est caché par défaut, jusqu'à ce que le plugin de repli (collapse) ajoute les classes appropriées que nous utilisons pour styliser chaque élément. Ces classes contrôlent l'apparence générale, ainsi que l'affichage et le masquage via des transitions CSS. Vous pouvez modifier tout cela avec un CSS personnalisé ou remplacer nos variables par défaut. Il convient également de noter qu'à peu près n'importe quel HTML peut aller dans le <code>.accordion-body</code>, bien que la transition limite le débordement.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
   </main>
+
+
+
   <footer class="mt-1 p-1 col-sm-12 text-center bottom-fixed">
     <div class="row">
 <div class="col-sm-12  col-lg-6">
