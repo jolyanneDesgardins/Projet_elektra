@@ -6,8 +6,7 @@
 
 html {
   background-color: var(--arriere-plan);
-  box-sizing: border-box;
-  overflow-x: hidden;
+  box-sizing: content-box;
 }
 
 .hero {
@@ -162,7 +161,7 @@ iframe {
 .texte {
   position: relative;
   top: 25px;
-  left: 0px;
+  left: 10px;
 }
 i {
   font-size: 50px;
@@ -174,10 +173,11 @@ i {
 
 .testimonials {
   position: relative;
-  top: 60px;
-  display: inline-block;
+  text-align: center;
+  top: 20px;
+  color: var(--couleur-primaire);
   font-size: 56px;
-  margin: 60px;
+  margin: 30px;
 }
 
 .iphone_image {
