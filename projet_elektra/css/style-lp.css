@@ -6,9 +6,9 @@
 
 html {
   background-color: var(--arriere-plan);
-  box-sizing: content-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-
 .hero {
   background-color: var(--couleur-primaire);
   padding: 100px;
@@ -55,7 +55,6 @@ h2 {
   position: relative;
   top: -100px;
   right: -90px;
-  width: 100vw;
 }
 .btn {
   position: relative;
@@ -76,7 +75,6 @@ h2 {
 
 p {
   color: #2a1358;
-  left: 70px;
 }
 .logo {
   width: 100px;
@@ -152,16 +150,13 @@ iframe {
 .fonctionalité {
   position: relative;
   top: 25px;
-
-  width: 100vw;
-  margin: 20px;
-  left: 45%;
+  left: 60px;
   color: var(--couleur-primaire);
 }
 .texte {
   position: relative;
   top: 25px;
-  left: 10px;
+  left: 0px;
 }
 i {
   font-size: 50px;
@@ -173,11 +168,10 @@ i {
 
 .testimonials {
   position: relative;
-  text-align: center;
-  top: 20px;
-  color: var(--couleur-primaire);
+  top: 5px;
+  left: 45vw;
   font-size: 56px;
-  margin: 30px;
+  margin: 20px;
 }
 
 .iphone_image {
@@ -203,12 +197,5 @@ i {
   width: 345.4px;
 }
 .card {
-}
-.accordion {
-  width: 75%;
-  position: relative;
-  top: 50%;
-  left: 15%;
-  display: inline;
-  text-align: center;
+  overflow: hidden;
 }
