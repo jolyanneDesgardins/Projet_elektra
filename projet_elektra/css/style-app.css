@@ -4,13 +4,21 @@
     list-style-type: none;
 }
 
+body {
+    height: 100vh;
+    background-color: var(--arriere-plan);
+    overflow-x: hidden;
+}
+
+h2 {
+    color: var(--couleur-primaire);
+
+}
+
 p {
     text-align: center;
 }
 
-.breaks {
-    background-color: var(--mauve-fonce);
-}
  /*-- NavBar --*/
 .navbar {
     background-color: var(--mauve-fonce);
@@ -31,12 +39,8 @@ p {
 
 /*-- Barre de recherche --*/
 #searchbar {
-    background-color: var(--mauve-fonce);
-}
-
-.searchbarcontainer {
-    background-color: var(--mauve-fonce);
-    border-radius: 25px;
+    border-color: var(--mauve-fonce);
+    border-width: 5px;
 }
 
 .filter {
@@ -44,18 +48,18 @@ p {
 }
 
 .btn {
-    background-color: var(--mauve-fonce);
+    background-color: var(--couleur-accent);
     border-radius: 25px;
-    border-width: 3px;
-    color: var(--couleur-accent);
-    border-color: var(--couleur-accent);
+    border-width: 2px;
+    color: var(--mauve-fonce);
+    border-color: var(--mauve-fonce);
     white-space: nowrap;
 }
 
 .btn:hover {
-    background-color: var(--couleur-accent);
-    color: var(--mauve-fonce);
-    border-color: var(--couleur-accent);
+    background-color: var(--mauve-fonce);
+    color: var(--couleur-accent);
+    border-color: var(--mauve-fonce);
 }
 
 .has-search .form-control {
@@ -76,6 +80,10 @@ p {
 
 .form-control {
     border-radius: 25px;
+    border-color: var(--mauve-fonce);
+    border-width: 2px;
+    color: var(--couleur-primaire);
+    background-color: var(--couleur-accent);
 }
 
 
@@ -89,7 +97,58 @@ footer {
 
 /*-- En vedette --*/
 
-.card img {
+.oeuvre {
     height: 20vh;
-    
+    object-fit: cover;
+    border-radius: 25px;
 }
+
+.artist {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card {
+    text-decoration: none;
+    color: var(--couleur-primaire);
+    background-color: var(--arriere-plan);
+    border-radius: 25px;
+}
+
+#vedette .card {
+    max-width: 200px;
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-body {
+    font-size: 15px;
+}
+
+.info {
+    color: var(--couleur-accent);
+    background-color: var(--mauve-fonce);
+    padding: 5px 5px 5px 10px;
+    border-radius: 25px;
+}
+
+.horaire {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px var(--couleur-primaire);
+}
+
+#vedette {
+    width: 140%;
+}
+
+/*-- Autres --*/
+
