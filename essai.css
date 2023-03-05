@@ -69,12 +69,11 @@ iframe {
   z-index: 2;
   top: -75px;
   border-radius: 30px;
+  /*
   border-bottom: white solid 60px;
   border-top: white solid 55px;
   border-left: white solid 10px;
   border-right: white solid 10px;
-  box-shadow: #ffec3f;
-  box-shadow: #ffec3f;
 }
 .cercle {
   border-style: solid;
@@ -88,7 +87,8 @@ iframe {
   z-index: 3;
   border-width: 3px;
   border-color: gray;
-}
+}*/
+
 .image {
   z-index: 2;
   width: 23%;
