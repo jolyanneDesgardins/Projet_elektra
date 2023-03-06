@@ -21,7 +21,7 @@ p {
 
  /*-- NavBar --*/
 .navbar {
-    background-color: var(--mauve-fonce);
+    background-color: var(--couleur-primaire);
     border-radius: 0px 0px 25px 25px;
 }
 
@@ -39,7 +39,7 @@ p {
 
 /*-- Barre de recherche --*/
 #searchbar {
-    border-color: var(--mauve-fonce);
+    border-color: var(--couleur-primaire);
     border-width: 5px;
 }
 
@@ -51,15 +51,15 @@ p {
     background-color: var(--couleur-accent);
     border-radius: 25px;
     border-width: 2px;
-    color: var(--mauve-fonce);
-    border-color: var(--mauve-fonce);
+    color: var(--couleur-primaire);
+    border-color: var(--couleur-primaire);
     white-space: nowrap;
 }
 
 .btn:hover {
-    background-color: var(--mauve-fonce);
+    background-color: var(--couleur-primaire);
     color: var(--couleur-accent);
-    border-color: var(--mauve-fonce);
+    border-color: var(--couleur-primaire);
 }
 
 .has-search .form-control {
@@ -80,7 +80,7 @@ p {
 
 .form-control {
     border-radius: 25px;
-    border-color: var(--mauve-fonce);
+    border-color: var(--couleur-primaire);
     border-width: 2px;
     color: var(--couleur-primaire);
     background-color: var(--couleur-accent);
