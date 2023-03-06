@@ -155,18 +155,20 @@ p {
 }
 .card-img {
   width: 70%;
-  position: relative;
-  object-fit: cover;
+
   top: 15px;
   left: 15px;
 }
-col-md-4 {
+.col-md-4 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .testimonials {
+  position: relative;
+  left: 35vw;
+  margin: 20px;
   font-size: 50px;
 }
 
