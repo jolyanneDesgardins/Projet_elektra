@@ -1,11 +1,5 @@
-:root {
-  --couleur-primaire: #2a1358;
-  --couleur-accent: #ffec3f;
-  --arriere-plan: #eaf2ff;
-}
-
 html {
-  background-color: var(--arriere-plan);
+  background-color: var(--bs-light);
   box-sizing: border-box;
   overflow-x: hidden;
 
@@ -26,17 +20,17 @@ html {
 /*hero*/
 
 .hero {
-  background-color: var(--couleur-primaire);
+  background-color: var(--bs-primary);
 }
 .row {
-  color: var(--couleur-accent);
+  color: var(--bs-secondary);
   justify-content: center;
   align-content: normal;
   height: 100%;
 }
 
 .iphone.text-center {
-  background-color: var(--couleur-primaire);
+  background-color: var(--bs-primary);
   color: #ffec3f;
   background-image: url(../assets/logo/iphone_crop2.png);
   background-repeat: no-repeat;
@@ -70,7 +64,6 @@ iframe {
   z-index: 2;
   top: -75px;
   border-radius: 30px;
-
   border-bottom: white solid 60px;
   border-top: white solid 55px;
   border-left: white solid 10px;
@@ -114,8 +107,8 @@ h1 {
   border-color: #ffec3f;
 }
 .btn:hover {
-  color: var(--couleur-primaire);
-  background-color: var(--couleur-accent);
+  color: var(--bs-primary);
+  background-color: var(--bs-secondary);
   border-color: #ffec3f;
 }
 

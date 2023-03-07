@@ -1,28 +1,22 @@
-:root {
-  --couleur-primaire: #2a1358;
-  --couleur-accent: #ffec3f;
-  --arriere-plan: #eaf2ff;
-}
-
 html {
-  background-color: var(--arriere-plan);
+  background-color: var(--bs-light);
   box-sizing: border-box;
   overflow-x: hidden;
   left: 500px;
 }
 .hero {
-  background-color: var(--couleur-primaire);
+  background-color: var(--bs-primary);
   padding: 100px;
 }
 .row {
-  color: var(--couleur-accent);
+  color: var(--bs-secondary);
   justify-content: center;
   align-content: normal;
   height: 100%;
 }
 
 .iphone {
-  background-color: var(--couleur-primaire);
+  background-color: var(--bs-primary);
   color: #ffec3f;
   background-image: url(assets/logo/iphone_crop2.png);
   background-repeat: no-repeat;
@@ -65,8 +59,8 @@ h2 {
   border-color: #ffec3f;
 }
 .btn:hover {
-  color: var(--couleur-primaire);
-  background-color: var(--couleur-accent);
+  color: var(--bs-primary);
+  background-color: var(--bs-secondary);
   border-color: #ffec3f;
 }
 
@@ -152,7 +146,7 @@ iframe {
   position: relative;
   top: 25px;
   left: 60px;
-  color: var(--couleur-primaire);
+  color: var(--bs-primary);
 }
 .texte {
   position: relative;
@@ -189,7 +183,7 @@ i {
 }
 
 .testimonials {
-  color: var(--couleur-primaire);
+  color: var(--bs-primary);
 }
 .card-img,
 .card-img-bottom,
