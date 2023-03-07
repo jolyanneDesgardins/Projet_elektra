@@ -1,0 +1,43 @@
+html {
+  background-color: var(--bs-light);
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  /*essaie*/
+}
+
+/*navbar*/
+.logo-entreprise {
+  width: 250px;
+  position: relative;
+  left: 25px;
+}
+.navbar {
+  background-color: #2a1358;
+  color: #ffec3f;
+}
+
+/*hero*/
+
+.hero {
+  background-color: var(--bs-primary);
+}
+.row {
+  color: var(--bs-secondary);
+  justify-content: center;
+  align-content: normal;
+  height: 90vh;
+}
+.iphone.text-center {
+  background-color: var(--bs-primary);
+  color: #ffec3f;
+  background-image: url(../assets/logo/iphone_crop2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+iframe {
+  aspect-ratio: 5/9;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 25vw;
+}

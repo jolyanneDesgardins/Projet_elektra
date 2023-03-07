@@ -6,13 +6,16 @@ html {
 }
 .hero {
   background-color: var(--bs-primary);
-  padding: 100px;
+  padding: 50px;
 }
 .row {
   color: var(--bs-secondary);
   justify-content: center;
   align-content: normal;
   height: 100%;
+}
+.col-12 {
+  max-width: 50%;
 }
 
 .iphone {
@@ -21,7 +24,7 @@ html {
   background-image: url(assets/logo/iphone_crop2.png);
   background-repeat: no-repeat;
   background-position: center;
-  height: 800px;
+  height: 100px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;

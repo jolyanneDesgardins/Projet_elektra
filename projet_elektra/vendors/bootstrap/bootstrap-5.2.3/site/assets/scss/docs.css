@@ -880,7 +880,8 @@
   align-items: center;
   text-decoration-color: rgba(13, 110, 253, 0.5);
   text-underline-offset: 0.5rem;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 .icon-link .bi {
   width: 1.5em;
@@ -923,14 +924,18 @@
 }
 @media (max-width: 991.98px) {
   .bd-links-nav {
-    column-count: 2;
-    column-gap: 1.5rem;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
   }
   .bd-links-nav .bd-links-group {
-    break-inside: avoid;
+    -moz-column-break-inside: avoid;
+         break-inside: avoid;
   }
   .bd-links-nav .bd-links-span-all {
-    column-span: all;
+    -moz-column-span: all;
+         column-span: all;
   }
 }
 
@@ -2374,7 +2379,9 @@
 
 .bd-placeholder-img {
   font-size: 1.125rem;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   text-anchor: middle;
 }
 
@@ -2677,12 +2684,16 @@
 .chroma .language-sh .line::before {
   color: #777;
   content: "$ ";
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .chroma .language-powershell::before {
   color: #009;
   content: "PM> ";
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .anchor-link {
