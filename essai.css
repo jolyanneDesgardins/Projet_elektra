@@ -33,18 +33,6 @@ html {
   height: 100vh;
 }
 
-.iphone.text-center {
-  background-color: var(--bs-primary);
-  color: #ffec3f;
-  background-image: url(../assets/logo/iphone_crop2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 800px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
 .iphone .image {
   display: inline-block;
 }
@@ -65,7 +53,7 @@ iframe {
   aspect-ratio: 5/9;
   box-sizing: border-box;
   width: 100%;
-  max-width: 450px;
+  max-width: 370px;
   position: relative;
   z-index: 2;
   border-radius: 30px;
@@ -144,6 +132,9 @@ p {
   top: 15px;
   left: 15px;
 }
+.card-body {
+  margin: 10px;
+}
 .col-md-4 {
   display: flex;
   justify-content: center;
@@ -155,8 +146,9 @@ p {
   color: var(--couleur-primaire);
 }
 .section-testimonials {
-  background-color: var(--arriere-plan);
+  background-color: var(--bs-light);
   color: #2a1358;
+  margin-bottom: 10px;
 }
 
 .accordion {
@@ -178,4 +170,8 @@ footer {
 }
 .mention {
   color: #ffec3f;
+}
+.btnInfo {
+  background-image: url("/projet_elektra/assets/personne/");
+  width: 100%;
 }
