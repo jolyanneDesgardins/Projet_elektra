@@ -172,6 +172,16 @@ footer {
   color: #ffec3f;
 }
 .btnInfo {
-  background-image: url("/projet_elektra/assets/personne/");
   width: 100%;
+}
+#section-info {
+  background-image: url("assets/personne/festival.jpg");
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  top: 10px;
+  background-position: 0 -275px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
