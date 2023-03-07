@@ -115,8 +115,7 @@ h1 {
 /*Carte fonctionalité*/
 .fonctionalité {
   position: relative;
-  margin: 35px;
-  left: 35vw;
+
   font-size: 50px;
 }
 .bi {
@@ -133,13 +132,7 @@ h1 {
   left: -2%;
   top: 13%;
 }
-.texte {
-  position: relative;
-  top: 85px;
-  padding-bottom: 80px;
-  left: -7vw;
-  width: 100%;
-}
+
 .card-title {
   color: #2a1358;
 }
