@@ -29,6 +29,10 @@ html {
   height: 100%;
 }
 
+.first {
+  height: 100vh;
+}
+
 .iphone.text-center {
   background-color: var(--bs-primary);
   color: #ffec3f;
@@ -57,30 +61,15 @@ html {
   justify-content: flex-end;
 }
 iframe {
+  top: 15px;
   aspect-ratio: 5/9;
   box-sizing: border-box;
-  width: 315px;
+  width: 100%;
+  max-width: 450px;
   position: relative;
   z-index: 2;
-  top: -75px;
   border-radius: 30px;
-  border-bottom: white solid 60px;
-  border-top: white solid 55px;
-  border-left: white solid 10px;
-  border-right: white solid 10px;
-}
-.cercle {
-  border-style: solid;
-  position: relative;
-  width: 50px;
-  top: 438px;
-  right: 182px;
-  height: 50px;
-  background-color: white;
-  border-radius: 50px;
-  z-index: 3;
-  border-width: 3px;
-  border-color: gray;
+  box-shadow: 10px 10px 15px rgba(36, 4, 54, 0.979);
 }
 
 .image {
