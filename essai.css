@@ -8,7 +8,7 @@ html {
   background-color: var(--arriere-plan);
   box-sizing: border-box;
   overflow-x: hidden;
-  left: 500px;
+
   /*essaie*/
 }
 
@@ -133,6 +133,13 @@ h1 {
   left: 23%;
   top: 13%;
 }
+.bi-quote {
+  font-size: 50px;
+  color: #2a1358;
+  position: relative;
+  left: -2%;
+  top: 13%;
+}
 .texte {
   position: relative;
   top: 85px;
@@ -141,6 +148,9 @@ h1 {
   width: 100%;
 }
 .card-title {
+  color: #2a1358;
+}
+h3 {
   color: #2a1358;
 }
 
@@ -166,12 +176,18 @@ p {
 }
 
 .testimonials {
-  position: relative;
-  left: 35vw;
-  margin: 20px;
   font-size: 50px;
+  color: var(--couleur-primaire);
+}
+.section-testimonials {
+  background-color: var(--arriere-plan);
+  color: #2a1358;
 }
 
+.accordion {
+  width: 45vw;
+  justify-content: center;
+}
 /*footer*/
 
 footer {
