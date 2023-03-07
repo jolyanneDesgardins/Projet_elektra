@@ -2,6 +2,7 @@ html {
   background-color: var(--bs-light);
   box-sizing: border-box;
   overflow-x: hidden;
+  left: 500px;
   /*essaie*/
 }
 
@@ -63,8 +64,6 @@ iframe {
   z-index: 2;
   top: -75px;
   border-radius: 30px;
-}
-  /*
   border-bottom: white solid 60px;
   border-top: white solid 55px;
   border-left: white solid 10px;
@@ -82,7 +81,7 @@ iframe {
   z-index: 3;
   border-width: 3px;
   border-color: gray;
-}*/
+}
 
 .image {
   z-index: 2;
@@ -114,7 +113,26 @@ h1 {
 }
 
 /*Carte fonctionalité*/
-
+.fonctionalité {
+  position: relative;
+  margin: 35px;
+  left: 35vw;
+  font-size: 50px;
+}
+.bi {
+  font-size: 50px;
+  color: #2a1358;
+  position: relative;
+  left: 23%;
+  top: 13%;
+}
+.texte {
+  position: relative;
+  top: 85px;
+  padding-bottom: 80px;
+  left: -7vw;
+  width: 100%;
+}
 .card-title {
   color: #2a1358;
 }
@@ -130,7 +148,7 @@ p {
 }
 .card-img {
   width: 70%;
-  position: relative;
+
   top: 15px;
   left: 15px;
 }
@@ -138,6 +156,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.testimonials {
+  position: relative;
+  left: 35vw;
+  margin: 20px;
+  font-size: 50px;
 }
 
 /*footer*/
