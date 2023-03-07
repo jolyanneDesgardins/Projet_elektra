@@ -1,17 +1,17 @@
 /*-- Styles Généraux --*/
 *{
-    font-family: var(--fonte-main);
+    font-family: var(--bs-font-main);
     list-style-type: none;
 }
 
 body {
     height: 100vh;
-    background-color: var(--arriere-plan);
+    background-color: var(--bs-light);
     overflow-x: hidden;
 }
 
 h2 {
-    color: var(--couleur-primaire);
+    color: var(--bs-primary);
 
 }
 
@@ -21,16 +21,16 @@ p {
 
  /*-- NavBar --*/
 .navbar {
-    background-color: var(--couleur-primaire);
+    background-color: var(--bs-primary);
     border-radius: 0px 0px 25px 25px;
 }
 
 .offcanvas-header {
-    background-color: var(--mauve-fonce);
+    background-color: var(--bs-dark);
 }
 
 .offcanvas-body {
-    background-color: var(--couleur-primaire);
+    background-color: var(--bs-primary);
 }
 
 .pfp {
@@ -39,7 +39,7 @@ p {
 
 /*-- Barre de recherche --*/
 #searchbar {
-    border-color: var(--couleur-primaire);
+    border-color: var(--bs-primary);
     border-width: 5px;
 }
 
@@ -48,18 +48,18 @@ p {
 }
 
 .btn {
-    background-color: var(--couleur-accent);
+    background-color: var(--bs-secondary);
     border-radius: 25px;
     border-width: 2px;
-    color: var(--couleur-primaire);
-    border-color: var(--couleur-primaire);
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
     white-space: nowrap;
 }
 
 .btn:hover {
-    background-color: var(--couleur-primaire);
-    color: var(--couleur-accent);
-    border-color: var(--couleur-primaire);
+    background-color: var(--bs-primary);
+    color: var(--bs-secondary);
+    border-color: var(--bs-primary);
 }
 
 .has-search .form-control {
@@ -80,16 +80,16 @@ p {
 
 .form-control {
     border-radius: 25px;
-    border-color: var(--couleur-primaire);
+    border-color: var(--bs-primary);
     border-width: 2px;
-    color: var(--couleur-primaire);
-    background-color: var(--couleur-accent);
+    color: var(--bs-primary);
+    background-color: var(--bs-secondary);
 }
 
 
 /*-- Footer --*/
 footer {
-    background-color: var(--couleur-primaire);
+    background-color: var(--bs-primary);
     color: white;
     text-align: center;
     border-radius: 25px 25px 0 0;
@@ -112,8 +112,8 @@ footer {
 
 .card {
     text-decoration: none;
-    color: var(--couleur-primaire);
-    background-color: var(--arriere-plan);
+    color: var(--bs-primary);
+    background-color: var(--bs-light);
     border-radius: 25px;
 }
 
@@ -131,8 +131,8 @@ footer {
 }
 
 .info {
-    color: var(--couleur-accent);
-    background-color: var(--mauve-fonce);
+    color: var(--bs-secondary);
+    background-color: var(--bs-dark);
     padding: 5px 5px 5px 10px;
     border-radius: 25px;
 }
@@ -143,7 +143,7 @@ footer {
 }
 
 .card:hover {
-    box-shadow: 0px 0px 20px var(--couleur-primaire);
+    box-shadow: 0px 0px 20px var(--bs-primary);
 }
 
 #vedette {
