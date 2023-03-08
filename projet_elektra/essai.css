@@ -76,14 +76,14 @@ h1 {
   right: -120px;
   font-size: 25px;
 }
-.btn {
+.telechargerbtn {
   position: relative;
   top: -400px;
   right: -110px;
   color: #ffec3f;
   border-color: #ffec3f;
 }
-.btn:hover {
+.telechargerbtn:hover {
   color: var(--bs-primary);
   background-color: var(--bs-secondary);
   border-color: #ffec3f;
@@ -97,7 +97,7 @@ h1 {
 }
 .bi {
   font-size: 50px;
-  color: #2a1358;
+  color: var(--bs-secondary);
   position: relative;
   left: 23%;
   top: 13%;
@@ -184,4 +184,13 @@ footer {
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.infobtn {
+  background-color: #2a1358;
+  border: none;
+}
+.info {
+  width: 100%;
+
+  color: white;
 }
