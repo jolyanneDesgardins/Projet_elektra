@@ -1,225 +1,222 @@
 /*-- Styles Généraux --*/
-*{
-    font-family: var(--bs-font-main);
-    list-style-type: none;
+* {
+  font-family: var(--bs-font-main);
+  list-style-type: none;
 }
 
 body {
-    height: 100vh;
-    background-color: var(--bs-light);
-    overflow-x: hidden;
+  height: 100vh;
+  background-color: var(--bs-light);
+  overflow-x: hidden;
 }
 
 h2 {
-    color: var(--bs-primary);
-
+  color: var(--bs-primary);
 }
 
 p {
-    color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 
- /*-- NavBar --*/
+/*-- NavBar --*/
 .navbar {
-    background-color: var(--bs-primary);
-    border-radius: 0px 0px 25px 25px;
+  background-color: var(--bs-primary);
+  border-radius: 0px 0px 25px 25px;
 }
 
 .offcanvas-header {
-    background-color: var(--bs-dark);
+  background-color: var(--bs-dark);
 }
 
 .offcanvas-body {
-    background-color: var(--bs-primary);
+  background-color: var(--bs-primary);
 }
 
 .pfp {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .bi-heart-fill {
-    background-color: var(--bs-light);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: red;
-    padding-left: 0.62rem;
-    padding-top: 0.3rem;
-    font-size: 30px;
+  background-color: var(--bs-light);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: red;
+  padding-left: 0.62rem;
+  padding-top: 0.3rem;
+  font-size: 30px;
 }
 
 .artworknavbar {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .bi-chevron-left {
-    color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 
 .retour {
-    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
-    font-size: 30px;
-    line-height: 1;
-    color: var(--bs-navbar-color);
-    background-color: var(--bs-light);
-    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
-    border-radius: var(--bs-navbar-toggler-border-radius);
-    transition: var(--bs-navbar-toggler-transition);
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: 30px;
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: var(--bs-light);
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
 }
 
 /*-- Barre de recherche --*/
 #searchbar {
-    border-color: var(--bs-primary);
-    border-width: 5px;
+  border-color: var(--bs-primary);
+  border-width: 5px;
 }
 
 .filter {
-    text-align: center;
+  text-align: center;
 }
 
 .btn {
-    background-color: var(--bs-secondary);
-    border-radius: 25px;
-    border-width: 2px;
-    color: var(--bs-primary);
-    border-color: var(--bs-primary);
-    white-space: nowrap;
+  background-color: var(--bs-secondary);
+  border-radius: 25px;
+  border-width: 2px;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  white-space: nowrap;
 }
 
 .btn:hover {
-    background-color: var(--bs-primary);
-    color: var(--bs-secondary);
-    border-color: var(--bs-primary);
+  background-color: var(--bs-primary);
+  color: var(--bs-secondary);
+  border-color: var(--bs-primary);
 }
 
 .has-search .form-control {
-    padding-left: 2.375rem;
+  padding-left: 2.375rem;
 }
 
 .has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
 }
 
 .form-control {
-    border-radius: 25px;
-    border-color: var(--bs-primary);
-    border-width: 2px;
-    color: var(--bs-primary);
-    background-color: var(--bs-secondary);
+  border-radius: 25px;
+  border-color: var(--bs-primary);
+  border-width: 2px;
+  color: var(--bs-primary);
+  background-color: var(--bs-secondary);
 }
-
 
 /*-- Footer --*/
 footer {
-    background-color: var(--bs-primary);
-    color: white;
-    text-align: center;
-    border-radius: 25px 25px 0 0;
+  background-color: var(--bs-primary);
+  color: white;
+  text-align: center;
+  border-radius: 25px 25px 0 0;
 }
 
 /*-- En vedette --*/
 
 .oeuvre {
-    height: 20vh;
-    object-fit: cover;
-    border-radius: 25px;
+  height: 20vh;
+  object-fit: cover;
+  border-radius: 25px;
 }
 
 .artist {
-    height: 40px;
-    width: 40px;
-    object-fit: cover;
-    border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .card {
-    text-decoration: none;
-    color: var(--bs-primary);
-    background-color: var(--bs-light);
-    border-radius: 25px;
+  text-decoration: none;
+  color: var(--bs-primary);
+  background-color: var(--bs-light);
+  border-radius: 25px;
 }
 
 #vedette .card {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 .card-title {
-    font-size: 15px;
-    font-weight: bold;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .card-body {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .info {
-    color: var(--bs-secondary);
-    background-color: var(--bs-dark);
-    font-weight: 500;
-    padding: 5px 5px 5px 10px;
-    border-radius: 25px;
-    text-align: end;
+  color: var(--bs-secondary);
+  background-color: var(--bs-dark);
+  font-weight: 500;
+  padding: 5px 5px 5px 10px;
+  border-radius: 25px;
+  text-align: end;
 }
 
 .horaire {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .card:hover {
-    box-shadow: 0px 0px 20px var(--bs-primary);
+  box-shadow: 0px 0px 20px var(--bs-primary);
 }
 
 #vedette {
-    width: 140%;
+  width: 140%;
 }
 
 /*-- Autres --*/
 
 .oeuvre-artwork {
-    height: 33vh;
-    object-fit: cover;
+  height: 33vh;
+  object-fit: cover;
 }
 
 .rest {
-    background-color: var(--bs-light);
-    border-radius: 25px 25px 0 0;
-    position: relative;
-    top: -30px;
+  background-color: var(--bs-light);
+  border-radius: 25px 25px 0 0;
+  position: relative;
+  top: -30px;
 }
 
 .title-artist {
-    background-color: var(--bs-primary);
-    color: var(--bs-secondary);
-    font-size: 25px;
-    font-weight: bold;
-    border-radius: 25px;
+  background-color: var(--bs-primary);
+  color: var(--bs-secondary);
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 25px;
 }
 
 input {
-    background-color: var(--bs-light);
-    border-radius: 25px;
+  background-color: var(--bs-light);
+  border-radius: 25px;
 }
 
 .modal-content {
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 .modal-header {
-    background-color: var(--bs-secondary);
-    border-radius: 25px 25px 0 0;
+  background-color: var(--bs-secondary);
+  border-radius: 25px 25px 0 0;
 }
 
 .modal-body {
-    background-color: var(--bs-light);
-    border-radius: 0 0 25px 25px;
+  background-color: var(--bs-light);
+  border-radius: 0 0 25px 25px;
 }
-
