@@ -16,7 +16,7 @@ h2 {
 }
 
 p {
-    text-align: center;
+    color: var(--bs-primary);
 }
 
  /*-- NavBar --*/
@@ -35,6 +35,36 @@ p {
 
 .pfp {
     border-radius: 50%;
+}
+
+.bi-heart-fill {
+    background-color: var(--bs-light);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: red;
+    padding-left: 0.62rem;
+    padding-top: 0.3rem;
+    font-size: 30px;
+}
+
+.artworknavbar {
+    background-color: transparent;
+}
+
+.bi-chevron-left {
+    color: var(--bs-primary);
+}
+
+.retour {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: 30px;
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: var(--bs-light);
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
 }
 
 /*-- Barre de recherche --*/
@@ -133,8 +163,10 @@ footer {
 .info {
     color: var(--bs-secondary);
     background-color: var(--bs-dark);
+    font-weight: 500;
     padding: 5px 5px 5px 10px;
     border-radius: 25px;
+    text-align: end;
 }
 
 .horaire {
@@ -151,4 +183,43 @@ footer {
 }
 
 /*-- Autres --*/
+
+.oeuvre-artwork {
+    height: 33vh;
+    object-fit: cover;
+}
+
+.rest {
+    background-color: var(--bs-light);
+    border-radius: 25px 25px 0 0;
+    position: relative;
+    top: -30px;
+}
+
+.title-artist {
+    background-color: var(--bs-primary);
+    color: var(--bs-secondary);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+input {
+    background-color: var(--bs-light);
+    border-radius: 25px;
+}
+
+.modal-content {
+    border-radius: 25px;
+}
+
+.modal-header {
+    background-color: var(--bs-secondary);
+    border-radius: 25px 25px 0 0;
+}
+
+.modal-body {
+    background-color: var(--bs-light);
+    border-radius: 0 0 25px 25px;
+}
 
