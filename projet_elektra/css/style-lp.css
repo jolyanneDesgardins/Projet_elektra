@@ -2,11 +2,25 @@ html {
   background-color: var(--bs-light);
   box-sizing: border-box;
   overflow-x: hidden;
-  left: 500px;
+  left: 200px;
+  /*essaie*/
 }
+
+/*navbar*/
+.logo-entreprise {
+  width: 250px;
+  position: relative;
+  left: 25px;
+}
+.navbar {
+  background-color: #2a1358;
+  color: #ffec3f;
+}
+
+/*hero*/
+
 .hero {
   background-color: var(--bs-primary);
-  padding: 50px;
 }
 .row {
   color: var(--bs-secondary);
@@ -14,26 +28,18 @@ html {
   align-content: normal;
   height: 100%;
 }
-.col-12 {
-  max-width: 50%;
+
+.first {
+  height: 100vh;
 }
 
-.iphone {
-  background-color: var(--bs-primary);
-  color: #ffec3f;
-  background-image: url(assets/logo/iphone_crop2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
 .iphone .image {
   display: inline-block;
 }
-
+.image {
+  z-index: 2;
+  width: 23%;
+}
 #telecharger {
   display: flex;
   align-items: flex-end;
@@ -42,158 +48,155 @@ html {
   align-content: stretch;
   justify-content: flex-end;
 }
-h1 {
+iframe {
+  top: 15px;
+  aspect-ratio: 5/9;
+  box-sizing: border-box;
   width: 100%;
+  max-width: 370px;
   position: relative;
-  top: -40px;
-  right: -190px;
-  font-size: 60px;
+  z-index: 2;
+  border-radius: 30px;
+  box-shadow: 10px 10px 15px rgba(36, 4, 54, 0.979);
 }
-h2 {
+
+.image {
+  z-index: 2;
+  width: 23%;
+}
+
+h1 {
+  position: relative;
+  top: 175px;
+  right: -125px;
+}
+.telecharger_texte {
   position: relative;
   top: -100px;
-  right: -90px;
+  right: -120px;
+  font-size: 25px;
 }
-.btn {
+.telechargerbtn {
   position: relative;
-  top: -200px;
+  top: -400px;
   right: -110px;
   color: #ffec3f;
   border-color: #ffec3f;
 }
-.btn:hover {
+.telechargerbtn:hover {
   color: var(--bs-primary);
   background-color: var(--bs-secondary);
   border-color: #ffec3f;
 }
 
+/*Carte fonctionalité*/
+.fonctionalité {
+  position: relative;
+
+  font-size: 50px;
+}
+.bi {
+  font-size: 50px;
+  color: var(--bs-primary);
+  position: relative;
+  left: 23%;
+  top: 13%;
+}
+.bi-quote {
+  font-size: 50px;
+  color: #2a1358;
+  position: relative;
+  left: -2%;
+  top: 13%;
+}
+
 .card-title {
   color: #2a1358;
 }
+h3 {
+  color: #2a1358;
+}
 
-p {
+.card-text {
   color: #2a1358;
 }
 .logo {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #ffec3f;
+  background-color: var(--bs-secondary);
 }
 .card-img {
   width: 70%;
-  position: relative;
+
   top: 15px;
   left: 15px;
+}
+.card-body {
+  margin: 10px;
 }
 .col-md-4 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.card {
-  margin-left: 70px;
-  margin-top: 20px;
+
+.testimonials {
+  font-size: 50px;
+  color: var(--bs-primary);
 }
+.section-testimonials {
+  background-color: var(--bs-light);
+  color: var(--bs-primary);
+  margin-bottom: 10px;
+}
+
+.accordion {
+  width: 45vw;
+  justify-content: center;
+}
+/*footer*/
+
 footer {
   width: 100%;
   height: 100%;
-  background-color: #2a1358;
+  background-color: var(--bs-primary);
 }
 .Jolyanne {
-  color: #ffec3f;
+  color: var(--bs-secondary);
 }
 .Felix {
-  color: #ffec3f;
+  color: var(--bs-secondary);
 }
 .mention {
-  color: #ffec3f;
+  color: var(--bs-secondary);
 }
-.logo-entreprise {
-  width: 250px;
-  position: relative;
-  left: 20px;
+.btnInfo {
+  width: 100%;
 }
-/*iframe {
-  aspect-ratio: 5/9;
-  width: 45%;
-  margin: 80px;
-  position: relative;
-  left: -65px;
-}*/
-iframe {
-  aspect-ratio: 5/9;
-  width: 300px;
-  position: relative;
-  z-index: 2;
-}
-.image {
-  z-index: 2;
-  width: 23%;
-}
-.navbar {
-  background-color: #2a1358;
-  color: #ffec3f;
-}
-.lien {
-  color: #ffec3f;
-}
-.nav-link {
-  color: #ffec3f;
-  position: relative;
-  left: 300px;
-  margin-left: 60px;
-}
+#section-info {
+  background-image: url("/projet_elektra/assets/personne/festival.jpg");
+  width: 100%;
 
-.fonctionalité {
-  position: relative;
-  top: 25px;
-  left: 60px;
+  box-sizing: border-box;
+  top: 10px;
+  background-position: 0 -275px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.infobtn {
+  background-color: var(--bs-primary);
+  border: none;
+}
+.infobtn:hover {
+  background-color: var(--bs-secondary);
+}
+.info {
+  width: 100%;
+  background-color: rgb(234, 242, 255, 0.4);
+  color: var(--bs-secondary);
+}
+p {
   color: var(--bs-primary);
-}
-.texte {
-  position: relative;
-  top: 25px;
-  left: 0px;
-}
-i {
-  font-size: 50px;
-  position: relative;
-  left: 22px;
-  top: 15px;
-  color: black;
-}
-
-.testimonials {
-  position: relative;
-  top: 5px;
-  left: 45vw;
-  font-size: 56px;
-  margin: 20px;
-}
-
-.iphone_image {
-  margin: 20px;
-  width: 380px;
-}
-#telecharger {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: flex-end;
-}
-
-.testimonials {
-  color: var(--bs-primary);
-}
-.card-img,
-.card-img-bottom,
-.card-img-top {
-  height: 455.89px;
-  width: 345.4px;
-}
-.card {
-  overflow: hidden;
 }
