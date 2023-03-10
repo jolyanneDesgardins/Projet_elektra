@@ -4,15 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="/projet_elektra/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
     <link rel="stylesheet" href="css/style-lp.css" />
     <title>Document</title>
@@ -20,7 +25,7 @@
   <body>
     <main>
       <!-- navbar -->
-      <nav class="navbar navbar-dark navbar-expand-sm sticky-top">
+      <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
         <a class="navbar-brand" href="#">
           <img src="assets/logo/image 8.png" alt="" class="logo-entreprise" />
         </a>
@@ -70,11 +75,11 @@
         <div class="row first col-12">
           <!--hero info-->
           <div class="col-sm-12 col-xl-5" id="telecharger">
-            <h1 class="col-sm-12">Télécharger l'app maintenant</h1>
-            <div class="row col-12 align-items-center">
-              <h2 class="col-sm-12 telecharger_texte">
-                L'application du festival eleckra vous permettra acceder
-                facilement a toute nos programme de festival sur votre téléphone
+            <h1  class="col-sm-12 align-content-center">Découvrez l'application officielle du Festival Elektra</h1>
+            <div class="row col-12 align-content-center">
+              <h2 class="col-sm-12 al telecharger_texte">
+                L'application du festival Elektra vous permettra accéder
+                facilement à toutes nos programmes de festival sur votre téléphone
                 mobile
               </h2>
             </div>
@@ -84,8 +89,8 @@
           </div>
           <!--iphone -->
           <div class="col-sm-12 col-xl-6">
-            <div class="telephonediv">
-              <div class="iphone text-center">
+            <div class="telephonediv ">
+              <div class="iphone d-flex justify-content-center align-content-center">
                 <iframe src="app/index.html" frameborder="0"></iframe>
                 <div class="cercle"></div>
               </div>
@@ -99,7 +104,7 @@
       <div class="section-fonctionalite">
         <div class="row">
           <div class="container ">
-            <h2 class="fonctionalité text-center">Fonctionalité</h2>
+            <h2 class="fonctionalité text-center align-content-center">Fonctionalité</h2>
             <p class="texte text-center">
               En téléchargeant notre appli, vous allez profiter d'une foule de
               fonctionnalités qui vous permettront de vivre une expérience
@@ -318,7 +323,7 @@
             <div class="col-12 col-md-6 col-xl-3">
               <div class="card">
                 <img
-                  src="assets/personne/fille_fleur.jpg"
+                  src="assets/personne/fille-sandrine.jpg"
                   class="card-img-top"
                 />
                 <div class="card-body">
@@ -500,14 +505,14 @@
 
 
   <section id="section-info" >
-    <div class="container ">
-<div class="row d-flex justify-content-center justify-content-md-end">
+    <div class="container  ">
+<div class="row  justify-content-md-end">
   <div class="col-lg-6 col-md-6 info">
     <h2 class="infolettre text-center">Infolettre</h2>
     
-    <p > Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l'appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.</p>
+    <p class="Texte_info"> Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l'appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.</p>
   </div>
-    <button type="button" class="btn btn-primary infobtn" data-bs-toggle="modal" data-bs-target="#modal"> Je m'abonne</button>
+    <button type="button" class="btn btn-primary infobtn col-lg-6 text-center" data-bs-toggle="modal" data-bs-target="#modal"> Je m'abonne</button>
       <div class="modal-dialog">
         <div class="modal-content">
         </div>
@@ -560,11 +565,13 @@
     </div>
   </div>
 </div>
-<script src="js/script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
