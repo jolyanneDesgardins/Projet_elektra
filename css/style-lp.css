@@ -143,6 +143,21 @@ h3 {
   margin: 10px;
   color: var(--bs-primary);
 }
+.card-img-top {
+  height: 20vh;
+  object-fit: cover;
+  object-position: 0 -130px;
+}
+.alicia {
+  height: 20vh;
+  object-fit: cover;
+  object-position: 0 -200px;
+}
+.george {
+  height: 20vh;
+  object-fit: cover;
+  object-position: 0 -200px;
+}
 .col-md-4 {
   display: flex;
   justify-content: center;
@@ -186,9 +201,6 @@ footer {
 }
 
 /* infolettre*/
-.btnInfo {
-  width: 100%;
-}
 
 #section-info {
   background-image: url("../assets/personne/festival.jpg");
@@ -205,9 +217,10 @@ footer {
 .infobtn {
   background-color: var(--bs-secondary);
   position: relative;
-  top: -50px;
+
   border: none;
   color: #2a1358;
+  height: 40px;
 }
 .infobtn:hover {
   background-color: var(--bs-dark);
@@ -217,7 +230,7 @@ footer {
   width: 100%;
   background-color: rgba(42, 19, 88, 0.7);
   color: var(--bs-secondary);
-  height: 300px;
+
   position: relative;
   top: 25px;
 }
