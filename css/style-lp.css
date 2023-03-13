@@ -204,10 +204,28 @@ footer {
 /* infolettre*/
 #section-info{
   background-image: url(/assets/personne/festival.jpg);
-  background-position: 0 -275px;
+  background-position: 0 -1200px;
   object-fit: cover;
   background-repeat: no-repeat;
-  background-size: cover;
+ 
+}
+.infobtn {
+  background-color: var(--bs-secondary);
+  position: relative;
+
+  border: none;
+  color: #2a1358;
+  height: 40px;
+}
+.infobtn:hover {
+  background-color: var(--bs-dark);
+  color: var(--bs-secondary);
+}
+.info {
+  
+  background-color: rgba(42, 19, 88, 0.7);
+ 
+
 }
 /*#section-info {
   background-image: url("../assets/personne/festival.jpg");
