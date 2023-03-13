@@ -133,6 +133,7 @@ h3 {
   border-radius: 50%;
   background-color: var(--bs-secondary);
 }
+
 .card-img {
   width: 70%;
 
@@ -201,8 +202,14 @@ footer {
 }
 
 /* infolettre*/
-
-#section-info {
+#section-info{
+  background-image: url(/assets/personne/festival.jpg);
+  background-position: 0 -275px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*#section-info {
   background-image: url("../assets/personne/festival.jpg");
   min-width: 100%;
   height: 400px;
@@ -238,3 +245,4 @@ footer {
 .Text_info {
   color: var(--bs-primary);
 }
+*/
