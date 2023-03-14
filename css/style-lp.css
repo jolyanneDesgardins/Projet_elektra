@@ -93,7 +93,21 @@ h1 {
   background-color: var(--bs-secondary);
   border-color: #ffec3f;
 }
-
+/*swipper
+***********************************/
+img.image_swipper {
+  aspect-ratio: 5/9;
+  box-sizing: border-box;
+  width: 30%;
+  max-width: 320px;
+  position: relative;
+  z-index: 2;
+  border-radius: 30px;
+  display: inline-block;
+}
+.swipper-slide {
+  width: 320px;
+}
 /*Carte fonctionalité
 ***********************************************************/
 .fonctionalité {
