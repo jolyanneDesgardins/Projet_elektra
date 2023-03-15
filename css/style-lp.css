@@ -108,6 +108,10 @@ img.image_swipper {
 .swipper-slide {
   width: 320px;
 }
+.swiper-wrapper {
+  position: relative;
+  left: 50px;
+}
 /*Carte fonctionalité
 ***********************************************************/
 .fonctionalité {
