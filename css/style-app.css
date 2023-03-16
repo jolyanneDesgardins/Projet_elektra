@@ -42,7 +42,7 @@ ul {
     border-radius: 50%;
 }
 
-#heart {
+.bi-heart-fill {
     background-color: var(--bs-light);
     width: 50px;
     height: 50px;
@@ -51,6 +51,25 @@ ul {
     padding-left: 0.62rem;
     padding-top: 0.3rem;
     font-size: 30px;
+}
+
+.bi-heart-fill.hide {
+    display: none;
+}
+
+.bi-heart {
+    background-color: var(--bs-light);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: var(--bs-primary);
+    padding-left: 0.62rem;
+    padding-top: 0.3rem;
+    font-size: 30px;
+}
+
+.bi-heart.hide {
+    display: none;
 }
 
 .artworknavbar {

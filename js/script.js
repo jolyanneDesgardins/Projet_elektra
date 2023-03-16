@@ -25,3 +25,17 @@ const swiperFeatured = new Swiper(".swiper-featured-artworks", {
     enable: true,
   },
 });
+
+//COEUR
+
+
+function hide(){
+const heartFull = document.querySelector(".bi-heart-fill");
+const heartEmpty = document.querySelector("bi-heart");
+  heartFull.classList.toggle("hide");
+  heartEmpty.classList.toggle("hide");
+};
+
+heartFull.addEventListener("click", hide());
+
+heartEmpty.addEventListener("click", hide());
