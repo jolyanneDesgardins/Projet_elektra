@@ -95,30 +95,37 @@ h1 {
 }
 /*swipper
 ***********************************/
-.voir-plus{
+.voir-plus {
   background-color: var(--bs-light);
 }
 .swiper-slide img {
   border-radius: 25px;
   max-width: 450px;
 }
-.swiper-slide  {
+.swiper-slide {
   width: auto;
- display: flex;
- justify-content: center;
+  display: flex;
+  position: relative;
+
+  justify-content: center;
 }
-.swiper-slide-prev  {
+.swiper-slide-prev {
   opacity: 50%;
- }
- .swiper-slide-next  {
- opacity: 50%;
- }
- 
+  width: 0;
+}
+.swiper-slide-next {
+  opacity: 50%;
+  width: 0;
+  z-index: 2;
+  position: relative;
+  left: 50px;
+}
+
 /*Carte fonctionalité
 ***********************************************************/
 .fonctionalité {
   position: relative;
-  top: 50px;
+
   color: #2a1358;
 
   font-size: 50px;
@@ -196,7 +203,6 @@ h3 {
   color: var(--bs-primary);
 }
 .section-testimonials {
-
   color: var(--bs-primary);
   margin-bottom: 10px;
 }
