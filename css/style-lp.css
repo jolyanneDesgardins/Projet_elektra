@@ -95,36 +95,25 @@ h1 {
 }
 /*swipper
 ***********************************/
-img.image_swipper {
-  aspect-ratio: 5/9;
-  box-sizing: border-box;
+.voir-plus{
+  background-color: var(--bs-light);
+}
+.swiper-slide img {
+  border-radius: 25px;
+  max-width: 450px;
+}
+.swiper-slide  {
+  width: auto;
+ display: flex;
+ justify-content: center;
+}
+.swiper-slide-prev  {
+  opacity: 50%;
+ }
+ .swiper-slide-next  {
+ opacity: 50%;
+ }
  
-  max-width: 320px;
-  position: relative;
-  z-index: 2;
-  border-radius: 30px;
-  display: inline-block;
-}
-.swiper-slide {
-  width: 320px;
-  margin: 150px;
-  height: 700px;
-}
-
-.swiper-wrapper {
-  position: relative;
-  top: 25px;
-  left: 35%;
-}
-div.swiper {
-  top: 10px;
-  height: 800px;
-  position: relative;
-}
-h1.swiper_titre.text-center {
-  position: relative;
-  top: -20px;
-}*/
 /*Carte fonctionalité
 ***********************************************************/
 .fonctionalité {
@@ -207,7 +196,7 @@ h3 {
   color: var(--bs-primary);
 }
 .section-testimonials {
-  background-color: var(--bs-light);
+
   color: var(--bs-primary);
   margin-bottom: 10px;
 }

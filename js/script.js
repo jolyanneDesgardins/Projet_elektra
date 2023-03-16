@@ -1,4 +1,4 @@
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".swiper-screenshot", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
@@ -6,6 +6,15 @@ const swiper = new Swiper(".swiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  slidesPreview:1,
+  spaceBetween:20,
+  
+  breakpoints:{
+    1200:{
+      slidesPreview:3,
+      spaceBetween:20,
+    }
+  }
 });
 
 
