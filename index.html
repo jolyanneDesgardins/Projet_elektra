@@ -240,12 +240,10 @@
                 <!-- Slides -->
                 
                 <div class="swiper-slide "><img class="image_swipper "  src="assets/logo/fausse_page_ouverte.jpg" alt=""></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+             
                 <div class="swiper-slide "><img class="image_swipper "  src="assets/logo/fausse_moda.jpg" alt=""></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-slide "><img class="image_swipper "  src="assets/logo/fausse_page_ouverte.jpg" alt=""></div>
+    
+                <div class="swiper-slide "><img class="image_swipper "  src="assets/logo/fausse_accueil.jpg" alt=""></div>
                 
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
@@ -382,7 +380,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="question1">
             <button
-              class="accordion-button"
+              class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#réponse1"
@@ -394,7 +392,7 @@
           </h2>
           <div
             id="réponse1"
-            class="accordion-collapse collapse show"
+            class="accordion-collapse collapse"
             aria-labelledby="question1"
             data-bs-parent="#Faq"
           >
@@ -554,9 +552,10 @@
       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
     <div class="modal-body">
-        <form action="">
-         <input type="email" placeholder="Votre Adress Couriel"> <i class="bi bi-enveloppe-at"></i>
-        </form>
+      <div class="form-group py-1">
+        <label for="email">Adresse courriel</label>
+        <input type="email" id="email" class="container-fluid py-1" placeholder="email@exemple.com">
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulée</button>
