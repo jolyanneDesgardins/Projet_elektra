@@ -19,6 +19,11 @@ p {
     color: var(--bs-primary);
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
  /*-- NavBar --*/
 .navbar {
     background-color: var(--bs-primary);
@@ -37,12 +42,12 @@ p {
     border-radius: 50%;
 }
 
-.bi-heart-fill {
+#heart {
     background-color: var(--bs-light);
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    color: red;
+    color: rgb(255, 0, 0);
     padding-left: 0.62rem;
     padding-top: 0.3rem;
     font-size: 30px;
@@ -71,10 +76,6 @@ p {
 #searchbar {
     border-color: var(--bs-primary);
     border-width: 5px;
-}
-
-.filter {
-    text-align: center;
 }
 
 .btn {
@@ -151,8 +152,17 @@ footer {
     max-width: 200px;
 }
 
+.rest .card:hover {
+    box-shadow: none;
+}
+
 .card-title {
     font-size: 15px;
+    font-weight: bold;
+}
+
+#vedette .card-title {
+    font-size: 10px;
     font-weight: bold;
 }
 
@@ -160,13 +170,25 @@ footer {
     font-size: 15px;
 }
 
+#vedette .card-body {
+    font-size: 9px;
+}
+
 .info {
-    color: var(--bs-secondary);
-    background-color: var(--bs-dark);
+    color: var(--bs-dark);
     font-weight: 500;
     padding: 5px 5px 5px 10px;
     border-radius: 25px;
     text-align: end;
+}
+
+.rest .info {
+    background-color: var(--bs-secondary);
+}
+
+.rest .info:hover {
+    color: var(--bs-secondary);
+    background-color: var(--bs-dark);
 }
 
 .horaire {
@@ -229,4 +251,8 @@ input {
 
 .accordion-button.collapsed {
     background-color: var(--bs-secondary);
+}
+
+.swiper-filters .swiper-slide {
+    width: auto !important;
 }
