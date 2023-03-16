@@ -120,6 +120,10 @@ h1 {
   position: relative;
   left: 50px;
 }
+h1.swiper_titre.text-center {
+  position: relative;
+  top: -25px;
+}
 
 /*Carte fonctionalité
 ***********************************************************/
