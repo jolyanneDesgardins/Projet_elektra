@@ -82,7 +82,7 @@ h1 {
   left: -80px;
   color: #ffec3f;
   border: 5px solid #ffec3f;
-  width: 500px;
+  width: 400px;
   height: 50px;
   font-size: 25px;
   font-weight: 500;
@@ -105,17 +105,31 @@ img.image_swipper {
   border-radius: 30px;
   display: inline-block;
 }
-.swipper-slide {
+.swiper-slide {
   width: 320px;
+  margin: 150px;
+  height: 700px;
 }
+
 .swiper-wrapper {
   position: relative;
-  left: 50px;
+  top: 25px;
+  left: 35%;
 }
+/*div.swiper {
+  top: 100px;
+  height: 800px;
+  position: relative;
+}
+h1.swiper_titre.text-center {
+  position: relative;
+  top: -20px;
+}*/
 /*Carte fonctionalité
 ***********************************************************/
 .fonctionalité {
   position: relative;
+  top: 50px;
   color: #2a1358;
 
   font-size: 50px;
@@ -248,4 +262,13 @@ footer {
 }
 .info {
   background-color: rgba(42, 19, 88, 0.7);
+}
+
+button.btn.btn-primary.inscription {
+  color: var(--bs-secondary);
+  background-color: var(--bs-primary);
+}
+button.btn.btn-primary.inscription {
+  color: var(--bs-primary);
+  background-color: var(--bs-secondary);
 }
