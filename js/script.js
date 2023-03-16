@@ -9,6 +9,7 @@ const swiper = new Swiper(".swiper", {
 });
 
 
+
 const swiperFilter = new Swiper(".swiper-filters", {
   // Optional parameters
   direction: "horizontal",
