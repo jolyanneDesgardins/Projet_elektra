@@ -116,7 +116,12 @@ img.image_swipper {
   top: 25px;
   left: 35%;
 }
-div.swipper.d-flex.swipper-initialized.swipper-horizontal.swipper-backface-hidden {
+div
+  .swipper
+  .d-flex
+  .swipper-initialized
+  .swipper-horizontal
+  .swipper-backface-hidden {
   height: 800px;
 }
 h1.swipper_titre.text-center {
