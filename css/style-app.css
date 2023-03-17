@@ -112,6 +112,8 @@ ul {
     color: var(--bs-primary);
     border-color: var(--bs-primary);
     white-space: nowrap;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -142,6 +144,7 @@ ul {
     border-width: 2px;
     color: var(--bs-primary);
     background-color: var(--bs-secondary);
+    font-size: 15px;
 }
 
 
