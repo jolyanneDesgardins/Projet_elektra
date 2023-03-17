@@ -116,6 +116,7 @@ h1 {
 }
 .swiper-button-prev {
   color: #2a1358;
+  margin-right: 10px;
 }
 .swiper-button-next {
   color: #2a1358;

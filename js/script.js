@@ -10,12 +10,12 @@ const swiper = new Swiper(".swiper-screenshot", {
   },
 
   slidesPerView: 1,
-  spaceBetween: 20,
+  spaceBetween: 10,
 
   breakpoints: {
     1200: {
       slidesPerView: 3,
-      spaceBetween: 20,
+      spaceBetween: 10,
     },
   },
 });
