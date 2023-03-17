@@ -72,6 +72,14 @@ ul {
     display: none;
 }
 
+.bi-heart:hover, .bi-heart-fill:hover {
+    color: rgb(255, 53, 53);
+}
+
+.bi-heart:active, .bi-heart-fill:active {
+    color: rgb(255, 133, 133);
+}
+
 .artworknavbar {
     background-color: transparent;
 }
@@ -220,7 +228,7 @@ footer {
 }
 
 #vedette {
-    width: 140%;
+    overflow: hidden;
 }
 
 /*-- Autres --*/

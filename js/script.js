@@ -20,7 +20,7 @@ const swiper = new Swiper(".swiper-screenshot", {
   },
 });
 
-const swiperFilter = new FilterSwiper(".swiper-filters", {
+const swiperFilter = new Swiper(".swiper-filters", {
   // Optional parameters
   direction: "horizontal",
   freeMode: {
@@ -28,19 +28,21 @@ const swiperFilter = new FilterSwiper(".swiper-filters", {
   },
 });
 
-const swiperFeatured = new FeatureSwiper(".swiper-featured-artworks", {
+const swiperFeatured = new Swiper(".swiper-featured-artworks", {
   // Optional parameters
   direction: "horizontal",
   freeMode: {
     enable: true,
   },
+  slidesPerView: 2.1,
+  spaceBetween: 10,
 });
 
 //COEUR
 
 function hide() {
   const heartFull = document.querySelector(".bi-heart-fill");
-  const heartEmpty = document.querySelector("bi-heart");
+  const heartEmpty = document.querySelector(".bi-heart");
   heartFull.classList.toggle("hide");
   heartEmpty.classList.toggle("hide");
 }
