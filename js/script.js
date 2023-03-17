@@ -1,25 +1,23 @@
-const swiper = new swiper(".swiper", {
+const swiper = new Swiper(".swiper-screenshot", {
   // Optional parameters
 
-  slidesPerView: 3,
-  spaceBetween: 30,
-  freeMode: true,
   direction: "horizontal",
   loop: true,
+  centeredSlides: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  /*
-  slidesPreview: 1,
+
+  slidesPerView: 1,
   spaceBetween: 20,
 
   breakpoints: {
     1200: {
-      slidesPreview: 3,
-      spaceBetween: 5,
+      slidesPerView: 3,
+      spaceBetween: 20,
     },
-  },*/
+  },
 });
 
 const swiperFilter = new FilterSwiper(".swiper-filters", {
