@@ -26,6 +26,7 @@ const swiperFilter = new Swiper(".swiper-filters", {
   freeMode: {
     enable: true,
   },
+  spaceBetween: 10,
 });
 
 const swiperFeatured = new Swiper(".swiper-featured-artworks", {
